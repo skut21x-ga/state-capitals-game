@@ -7,10 +7,7 @@ Created a game to help us memorize the names of the capitals of all 50 states.
 
 - Basics of programming with Python
 
-The code is available in `lib/script.py`. The states were already imported.
-
-I wrote the rest of your code in the `script` file. You can execute a python file
-by doing `python3 lib/script.py`
+You can execute a python file by doing `python3 lib/script.py`
 
 ## Requirements
 
