@@ -1,27 +1,16 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
 # State Capitals
 
-We're going to create a game to help us memorize the names of the capitals of
-all 50 states.
+Created a game to help us memorize the names of the capitals of all 50 states.
 
 ## Prerequisites
 
 - Basics of programming with Python
 
-## Instructions
+There is starter code available in `lib/script.py`. The states were already imported.
 
-1. Fork and clone this repository.
-1. Change into the new directory.
-1. Fulfill the listed requirements.
-
-There is starter code available in `lib/script.py`. Note how the states are
-already imported for you!
-
-Write the rest of your code in the `script` file. You can execute a python file
+I wrote the rest of your code in the `script` file. You can execute a python file
 by doing `python3 lib/script.py`
-
-Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
@@ -34,9 +23,6 @@ To play the game:
 - After getting through all 50 states one time, users should be asked whether or
   not they want to play again.
 
-**Hint:** It can help to make a copy of the `capitals` list that includes only a
-few states for testing purposes.
-
 ### Game Requirements
 
 - Make sure the states don't appear in alphabetical order in the prompts. This
@@ -47,33 +33,6 @@ few states for testing purposes.
 - Calculate a overall total score, display a running tally after each prompt
 - Once the user has gone through all 50 states, ask them if they'd like to play
   again.
-
-### Potentially Useful Python Features
-
-- `print()`
-- `input()`
-- `for` loop
-- `sorted()`
-- `random.shuffle()`
-
-## Bonus!
-
-- Initialize **new** keys in the dictionaries that store the number of times a
-  user gets a capital `correct` and the number of times the answer is
-  `incorrect`.
-  - If the answer is correct, display a message saying so, and increment the
-    `correct` key.
-  - If the answer is incorrect, display a message saying so, and increment the
-    `incorrect` key.
-- If the user plays again, set the order of how the prompts appear to start with
-  the ones they got wrong the most often.
-- Add a hint functionality that prints the first 3 letters of a capital
-
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
